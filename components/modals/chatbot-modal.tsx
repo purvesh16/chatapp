@@ -58,8 +58,6 @@ const ChatbotModal: React.FC = () => {
     setInputText(e.target.value);
   };
 
-  console.log(inputText);
-
   return (
     <Dialog open={isModalOpen} onOpenChange={onClose}>
       <DialogContent className="dark:bg-neutral-950 dark:text-white flex justify-center items-center flex-col ">
