@@ -23,7 +23,7 @@ const ChatbotModal: React.FC = () => {
   const isModalOpen = isOpen && type === "chatbot";
   const debouncedInput = useDebounce(inputText, 300); // Debounce input text
 
-  const url = `http://clgproject33.pythonanywhere.com/data/?query=${debouncedInput}`;
+  const url = `${process.env.NEXT_PUBLIC_CHATBOT_API_URL}?query=${debouncedInput}`;
 
   const search = useMemo(() => {
     return () => {

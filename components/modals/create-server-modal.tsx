@@ -77,7 +77,7 @@ export const CreateServerModal = () => {
             Customize your room
           </DialogTitle>
           <DialogDescription className="text-center text-zinc-500">
-            Give your group a personality with a name and an image. You can
+            Give your room a personality with a name and an image. You can
             always change it later.
           </DialogDescription>
         </DialogHeader>
